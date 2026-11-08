@@ -2,6 +2,10 @@ build/
 .cache/
 compile_commands.json
 
+# Environment variables
+.env
+.envrc
+
 # Private, game-derived material. See ORIGINAL_WORK.md.
 local/
 
@@ -20,10 +24,14 @@ local/
 # nob bootstrap binary
 /nob
 /nob.old
+/nob.exe
+/nob.exe.old
 *.dat
 
 # Dear ImGui writes window layout here when the viewer runs.
 imgui.ini
+
+# Python compilation cache
 .ccache/
 __pycache__/
 *.pyc
